@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Daata from "./Data"
+import Nav from "./Components/Nav/Nav";
+import GlobalStyle from "./Components/GlobalStyle";
+import Main from "./Components/MainComponent/Main";
 
 function App() {
+// reff
+  const [searchState, setSearchState] = useState(Daata);
+  const [cats, setCats] = useState(Daata);
+  const [Data, setMainData] = useState(Daata);
+
+
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <GlobalStyle />
+      <Nav  searchState = {searchState} setSearchState = {setSearchState}  />
+      <Main searchState = {searchState} setSearchState = {setSearchState}  cats = {cats}  setCats = {setCats}  Data = {Data} />
+
+
+
     </div>
   );
 }
