@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/foodtruck/static/js/main.788a0165.chunk.js",
+    "main.js.map": "/foodtruck/static/js/main.788a0165.chunk.js.map",
+    "runtime-main.js": "/foodtruck/static/js/runtime-main.db7f4828.js",
+    "runtime-main.js.map": "/foodtruck/static/js/runtime-main.db7f4828.js.map",
+    "static/js/2.3b143216.chunk.js": "/foodtruck/static/js/2.3b143216.chunk.js",
+    "static/js/2.3b143216.chunk.js.map": "/foodtruck/static/js/2.3b143216.chunk.js.map",
+    "index.html": "/foodtruck/index.html",
+    "static/js/2.3b143216.chunk.js.LICENSE.txt": "/foodtruck/static/js/2.3b143216.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7f4828.js",
+    "static/js/2.3b143216.chunk.js",
+    "static/js/main.788a0165.chunk.js"
+  ]
+}
