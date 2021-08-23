@@ -53,14 +53,15 @@ const Navbar = styled.div`
 color:white;
   background-color: #FF5533;
   height: 10vh;
-  border: 1px solid black;
+
+
   .parent {
     justify-content: space-between;
     align-items: center;
     width:90%;
     margin:auto;
     display: flex;
-    height: 10vh;
+    height: 8vh;
     .search-container{
       
       label, placeholder{
